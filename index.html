@@ -1,10 +1,375 @@
 <!DOCTYPE html>
 <html>
-	<head></head>
-	<body>
-		Hello World
-		<img src="https://cdn-images-1.medium.com/max/1600/1*jB76MLZjiNhGSQQvxm7LSQ.gif">
-		<img src="https://camo.githubusercontent.com/5590afcaa3b5b9673b18095a9b231b432ce6064c/687474703a2f2f33312e6d656469612e74756d626c722e636f6d2f74756d626c725f6c69646630347461446b317164613767646f315f3530302e676966">
-		<img src="https://i.giphy.com/media/pa37AAGzKXoek/giphy.gif">
-	</body>
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Michael Nguyen - Full Stack Developer</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="assets/jquery-ui/external/jquery/jquery.js"></script>
+    <script src="assets/jquery-ui/jquery-ui.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+	
+</head>
+<body>
+
+    <div id="wrap">
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" >Michael Nguyen</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="showHome">Home</a></li>
+                <li><a class="showAbout">About</a></li>
+                <li><a class="showPortfolio">Portfolio</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="home slidingDiv">
+            <div class="background">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <h1>Creative Inspiring Stunning</h1>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about slidingDiv">
+            <div class="row">
+                <div class="col-md-1"></div>                
+                    <div class="col-md-10 aboutMain">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="./assets/images/Michael-Nguyen.jpg">
+                            </div>
+                            <div class="col-md-8">
+                            <h1>About Me - Michael Nguyen</h1>
+                            <p>I am a full stack web developer who graduated from the University of Houston with a degree in Management Information Systems. I am certified in full stack web development by the University of Texas. Coding is my passion and I hope to always strive for even greater heights. I like working both independently or as part of a team. I am a quick learner and a good problem solver who works well in challenging and dynamic environments.</p>
+                            <div class="row">
+                                <div class="col-md-4">
+                                <h2>Skills</h2>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>Javascript</li>
+                                    <li>CSS</li>
+                                    <li>SQL</li>
+                                    <li>Node</li>
+                                    <li>React</li>
+                                    <li>MVC Architecture</li>
+                                    <li>Express</li>
+                                    <li>and more!</li>
+                                </ul>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2>Work Experience</h2>
+                                    <ul>
+                                        <li>Boral Agency, July 2017-Present</li>
+                                        <li>University of Texas - Houston Coding Bootcamp - Full Stack Web Development, Sept. 2017-March 2018</li>
+                                    </ul>
+                                    <br />
+                                    <h3><a href="https://docs.google.com/document/d/1xRmejA9L1NVf6SIaYbAun6t0Z0ng5PedwV4oXdI_1lQ/edit?usp=sharing" target="_blank">Resume</a></h3>
+                                    <div class="icons">
+                                        <a href="https://www.linkedin.com/in/michael-nguyen-2153a9142/"><img src="assets/images/linkedinicon.png" alt="LinkedIn"></a>
+                                        <a href="https://github.com/michaelnguyen55"><img src="assets/images/githubicon.png" alt="GitHub"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+        <div class="portfolio slidingDiv">
+            <div class="container gallery-container">
+                
+                <div class="gallery">
+                    <div class="row">
+                        <h1>Portfolio</h1>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#VoteChain">
+                                <img src="assets/images/VoteChain.jpg" alt="VoteChain">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#letsChill">
+                                <img src="assets/images/letsChill.jpg" alt="letsChill">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#Bamazon">
+                                <img src="assets/images/Bamazon.jpg" alt="Bamazon">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#Trivia">
+                                <img src="assets/images/Trivia.jpg" alt="Trivia">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#rock-paper-scissors">
+                                <img src="assets/images/rock-paper-scissors.jpg" alt="Rock Paper Scissors">
+                            </div>
+                        </div> 
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#Hangman">
+                                <img src="assets/images/Hangman.jpg" alt="Hangman">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#Liri">
+                                <img src="assets/images/Liri.jpg" alt="Liri">
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="gallery-item" data-modal="#Eat-Da-Burger">
+                                <img src="assets/images/Eat-Da-Burger.jpg" alt="Eat-Da-Burger">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modals -->
+            <div id="VoteChain" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Vote Chain</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>VoteChain is a web app that uses blockchain technology to try and emulate what a real online election could be like. VoteChain can be used for businesses or even scale up to U.S. elections! Users are even able to vote from anywhere including their phones. VoteChain uses blockchains to ensure that votes are immutable and verified. As an added security measure, only users from a premade data set will be able to register so that only the people we want to vote will be able to do so.</p>
+                    <a href="https://github.com/ardnehsan/ChainVote">Github Link</a>
+                    <br />
+                    <a href="https://vote-chain.herokuapp.com/">Web App Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="letsChill" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">letsChill</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>letsChill is a web app that allows registered users to be matched with other users with similar interests. Choose the hobbies that interest you. Search for photos and watch youtube videos on the app itself. Finally match up with other users and chat to your heart's content.</p>
+                    <a href="https://github.com/hautran1993/letsChill">Github Link</a>
+                    <br />
+                    <a href="https://hautran1993.github.io/letsChill/">Web App Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="Bamazon" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Bamazon</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Bamazon is a node application that allows customers, managers, and supervisors to interact with products from a MySQL database. Customers can buy different products. Managers can view products for sale, view products with a low inventory, view department names, add to inventory of a product, and add new products. Supervisors can view products sales by department and create new departments.</p>
+                    <a href="https://github.com/michaelnguyen55/Bamazon">Github Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="Trivia" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Trivia</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Trivia Game is a web game in which users will be taken through a trivia game about coffee and cats. Players will have 20 seconds to answer each question. Try to answer correctly as many of them as you can!</p>
+                    <a href="https://github.com/michaelnguyen55/trivia-game">Github Link</a>
+                    <br />
+                    <a href="https://michaelnguyen55.github.io/trivia-game/">Web App Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="rock-paper-scissors" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Rock, Paper, Scissors Multiplayer</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>RPS-Multiplayer is a web app in which users can play rock, paper, scissors against other people in real time. Users can also chat with each other.</p>
+                    <a href="https://github.com/michaelnguyen55/RPS-Multiplayer">Github Link</a>
+                    <br />
+                    <a href="https://michaelnguyen55.github.io/RPS-Multiplayer/">Web App Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="Hangman" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Hangman</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Hangman-Game is a web app. A random word from a preset list is chosen and you must correctly guess each letter of the word. Your remaining number of guesses will go down if you guess incorrectly. If you run out of remaining guesses, the game is over and you lose. Guess the word completely to win the game!</p>
+                    <a href="https://github.com/michaelnguyen55/Hangman-Game">Github Link</a>
+                    <br />
+                    <a href="https://michaelnguyen55.github.io/Hangman-Game/">Web App Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="Liri" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Liri</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Liri is like iPhone's SIRI, however Liri is a Language Interpretation and Recognition Interface. Liri is a command line node app that takes in parameters and gives you back data. You can search for details about user tweets, songs, or movies.</p>
+                    <a href="https://github.com/michaelnguyen55/liri-node-app">Github Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="Eat-Da-Burger" class="modal fade" role="dialog">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Eat-Da-Burger</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Eat-Da-Burger! is an application that allows you to save a burger that you want to eat and then devour it! This application uses mvc architecture.</p>
+                    <a href="https://github.com/michaelnguyen55/burger">Github Link</a>
+                    <br />
+                    <a href="http://pacific-ridge-43072.herokuapp.com/">Web App Link</a>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modals -->
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; Copyright 2018 Michael Nguyen</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+
+            var active = ".home";
+
+            function showPage(page, direction) {
+                $(page).show("slide", {direction: direction}, 1000);
+                active = page;
+            }
+
+            $(".slidingDiv").hide();
+            $(".home").show("fade", 1000);
+
+            $('.showHome').click(function () {
+                if(active !== ".home") {
+                    $(active).hide("slide", {direction: "right"}, 1000);
+                    showPage(".home", "left");
+                };
+            });
+
+
+            $('.showAbout').click(function () {
+                if(active !== ".about") {
+                    if(active === ".home") {
+                        $(active).hide("slide", {direction: "left"}, 1000);
+                        showPage(".about", "right");
+                        
+                    };
+                    if(active === ".portfolio") {
+                        $(active).hide("slide", {direction: "right"}, 1000);
+                        showPage(".about", "left");
+                    };
+                };
+            });
+
+            $('.showPortfolio').click(function () {
+                if(active !== ".portfolio") {
+                    $(active).hide("slide", {direction: "left"}, 1000);
+                    showPage(".portfolio", "right");
+                };
+            });
+
+            $(".gallery-item").click(function() {
+                $($(this).attr("data-modal")).modal("toggle");
+            });
+
+        });
+    </script>
+
+</body>
 </html>
