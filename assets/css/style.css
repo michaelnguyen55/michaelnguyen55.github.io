@@ -78,6 +78,10 @@ footer p{
     background-repeat: no-repeat;
 }
 
+.home, .about, .portfolio {
+    height: 100%;
+}
+
 .home {
     background-image: url("../images/home.jpg");
 }
@@ -98,8 +102,9 @@ footer p{
     text-align: center;
 }
 
-.home .row {
-    min-height: 550px;
+.home .background {
+    height: 100%;
+    width: 100%;
     background-color: rgba(0,0,0,0.2);
 }
 
